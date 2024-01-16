@@ -1,0 +1,28 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "sample django app"
+client_id = "145db729dee898319f99baef5595614d"
+application_url = "https://estimates-mv-consult-tampa.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+use_legacy_install_flow = true
+
+[auth]
+redirect_urls = [
+  "https://estimates-mv-consult-tampa.trycloudflare.com/auth/callback",
+  "https://estimates-mv-consult-tampa.trycloudflare.com/auth/shopify/callback",
+  "https://estimates-mv-consult-tampa.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-10"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "sample-django-app.myshopify.com"
