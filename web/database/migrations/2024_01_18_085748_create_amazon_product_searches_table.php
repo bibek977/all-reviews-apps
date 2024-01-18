@@ -22,6 +22,7 @@ class CreateAmazonProductSearchesTable extends Migration
             $table->float('total_rating')->nullable();
             $table->string('company_image')->nullable();
             $table->string('address')->nullable();
+            $table->string('company_logo')->default('images/google_logo.png');
             $table->timestamps();
         });
     }

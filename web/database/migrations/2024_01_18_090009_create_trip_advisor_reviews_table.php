@@ -23,6 +23,8 @@ class CreateTripAdvisorReviewsTable extends Migration
             $table->string('review_photos')->nullable();
             $table->string('author_img')->nullable();
             $table->string('review_date')->nullable();
+            $table->string('review_badge')->default('images/google_logo.png');
+            $table->string('badge_name')->default('Google');
             $table->timestamps();
         });
     }
