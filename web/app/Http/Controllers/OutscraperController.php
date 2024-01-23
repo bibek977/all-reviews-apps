@@ -14,6 +14,9 @@ use App\Models\FacebookPage;
 use App\Models\FacebookPageReviews;
 use App\Models\GoogleMap;
 use App\Models\GoogleMapReviews;
+use App\Models\SocialPlatforms;
+use App\Http\Controllers\Dotenv\Dotenv;
+
 
 
 require_once(base_path('app/outscraper/outscraper.php'));
@@ -21,12 +24,8 @@ require_once(base_path('app/outscraper/outscraper.php'));
 use App\Outscraper\OutscraperClient;
 
 
-// To get outscraper key
-require __DIR__ . '/../../../vendor/autoload.php';
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/../../../');
-$dotenv->load();
+$OUTSCRAPER_KEY = env('OUTSCRAPER_KEY');
 
-$OUTSCRAPER_KEY = isset($_ENV["OUTSCRAPER_KEY"]) ? $_ENV["OUTSCRAPER_KEY"] : null;
 
 
 class OutscraperController extends Controller
@@ -525,6 +524,11 @@ class OutscraperController extends Controller
     }
     public function show_google_reviews(){
         $search = GoogleMapReviews::all();
+        return response()->json($search);
+
+    }
+    public function show_social_platforms(){
+        $search = SocialPlatforms::all();
         return response()->json($search);
     }
 }

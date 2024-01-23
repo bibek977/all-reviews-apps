@@ -3,8 +3,7 @@ import {
   QueryClientProvider,
   QueryCache,
   MutationCache,
-} from "react-query";
-
+} from "@tanstack/react-query";
 /**
  * Sets up the QueryClientProvider from react-query.
  * @desc See: https://react-query.tanstack.com/reference/QueryClientProvider#_top

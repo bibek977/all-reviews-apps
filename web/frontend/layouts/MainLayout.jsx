@@ -10,6 +10,7 @@ const MainLayout = () => {
             fullWidth
             primaryAction = {modalButton}
         >
+          <SocialAppsContainer></SocialAppsContainer>
 
         </Page>
   )
