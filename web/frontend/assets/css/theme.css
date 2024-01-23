@@ -1,0 +1,859 @@
+/* .grp-entangle-root, */
+/* div:empty {
+    display: block !important;
+} */
+
+.grp-entangle-root {
+    max-width: 100vw;
+    font-size: 14px;
+    line-height: 1.6;
+    display: block !important;
+    padding: 20px;
+    /* min-height: 355px; */
+}
+
+.grp-entangle-root *a {
+    text-decoration: none;
+}
+
+/* Swiper  */
+.grp-entangle-swiper-wrap {
+    padding: 0px 30px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.grp-entangle-slider-wrapper {
+    overflow-x: hidden;
+}
+
+.swiper-wrapper {
+    padding-bottom: 15px;
+}
+
+.swiper-pagination-bullet {
+    background-color: var(--swiper_dot_color) !important;
+}
+
+.grp-entangle-swiper-button-next {
+    margin-top: 0px;
+    position: absolute;
+    top: 45%;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    transform: translateY(-50%);
+}
+
+.grp-entangle-swiper-button-prev {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 45px;
+    height: 45px;
+    transform: translateY(-50%);
+    margin-top: 0px;
+}
+
+.grp-entangle-swiper-button-prev svg {
+    transform: scaleX(-1);
+}
+
+.grp-entangle-swiper-main .swiper-pagination {
+    bottom: 0 !important;
+}
+
+.grp-entangle-swiper-main .grp-entangle-swiper-button-prev:after,
+.grp-entangle-swiper-main .grp-entangle-swiper-button-next:after {
+    font-size: 20px !important;
+    position: absolute;
+    top: 20px;
+    left: 13px;
+    opacity: 40%;
+    color: --p-action-critical;
+
+}
+
+
+
+svg#svd-ud {
+    color: dimgrey;
+}
+
+svg#svd-ud:hover {
+    color: black;
+}
+
+
+:hover.grp-entangle-swiper-main.grp-entangle-swiper-button-prev:after,
+:hover.grp-entangle-swiper-main.grp-entangle-swiper-button-next:after {
+    opacity: 100%;
+}
+
+.grp-entangle-swiper-main .grp-entangle-swiper-button-prev,
+.grp-entangle-swiper-main .grp-entangle-swiper-button-next {
+    height: 34px;
+    width: 40px;
+}
+
+#grp-entangle--root a {
+    text-decoration: none;
+}
+
+.grp-entangle-tab-content {
+    padding: 40px;
+}
+
+#grp-entangle-rating-star {
+    display: flex;
+}
+
+.grp-entangle-flex {
+    display: flex;
+    margin-top: 15px;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 0px 2px rgba(31, 33, 36, 10%);
+    border-radius: 5px;
+}
+
+.grp-entangle-info-icon {
+    height: 23px;
+    width: 50px;
+}
+
+.grp-entangle-search-icon {
+    height: 20px;
+    width: 50px;
+}
+
+
+.grp-entangle-badge {
+    display: flex;
+    justify-content: center;
+}
+
+.grp-entangle-badge-content {
+    padding-left: 10px;
+}
+
+#grp-entangleconnect-google-heading {
+    font-size: 20px;
+}
+
+
+.grp-entanglelayout-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+    padding: 10px 0;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+p#grp-entangleconnect-google-layout {
+    font-size: 18px;
+    padding: 10px;
+}
+
+h4#grp-entangleconnect-google-layout {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.grp-entanglelayout-body {
+    padding: 10px 0px;
+    margin: 0px 20px;
+    padding-bottom: 20px;
+}
+
+.grp-entangle-layout-type {
+    padding-top: 20px;
+}
+
+
+/*  star rating */
+.grp-entangle-stars-outer {
+    display: inline-block;
+    position: relative;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.grp-entangle-stars-outer::before {
+    content: "\2606 \2606 \2606 \2606 \2606";
+    color: rgb(247, 187, 4);
+    letter-spacing: 1px;
+}
+
+.grp-entangle-stars-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 17px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.grp-entangle-star-main {
+    font-size: 15px;
+    display: flex;
+    gap: 3px;
+    flex-wrap: wrap;
+}
+
+.grp-entangle-sub-infomation {
+    color: rgba(97, 106, 117, 1);
+    margin-top: 3px;
+}
+
+.grp-entangle-stars-inner::before {
+    content: "\2605 \2605 \2605 \2605 \2605";
+    letter-spacing: 1px;
+}
+
+#grp-entangle-google-main-review *:focus-visible {
+    outline: none;
+    outline-offset: no;
+    box-shadow: none;
+}
+
+.grp-entangle-spinner {
+    text-align: center;
+    margin: 80px 0px;
+}
+
+.swiper {
+    padding: 25px;
+}
+
+
+.grp-entangle-item-body-stars {
+    justify-content: center;
+    display: flex;
+}
+
+/*-------Floating and Static------*/
+.grp-entangle-layout-floating {
+    position: relative;
+}
+
+.grp-entangle-layout-floating .grp-entangle-static-badge {
+    display: flex;
+}
+
+#grp-entangle-floating-sidenav {
+    padding: 10px;
+    position: fixed;
+    max-height: 100vh;
+    max-width: 0px;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    transition: all 200ms ease;
+    z-index: 99999;
+    overflow-x: hidden;
+}
+
+.grp-entangle-floating-close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    right: 5px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.7;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.grp-entangle-floating-close svg {
+    height: 18px;
+    width: 18px;
+}
+
+.grp-entangle-infomation {
+    gap: 6px;
+    display: flex;
+    flex-direction: column;
+}
+
+.grp-entangle-grid-main {
+    padding: 0px 25px 0px 25px;
+}
+
+.grp-entangle-main-sub {
+    box-shadow: 0px 1px 0px #a9a9a987;
+    min-height: 150px;
+}
+
+.grp-entangle-item,
+.grp-entangle-item-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.grp-entangle-item {
+    gap: 15px;
+    border-radius: 3px;
+    padding: 20px 15px;
+    margin: 10px;
+    margin-top: 50px;
+    padding-top: 0;
+    height: 180px;
+}
+
+.grp-entangle-item-head {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grp-entangle-item-head-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.grp-entangle-item-head-name-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.grp-entangle-item-head-name {
+    font-weight: 600;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.grp-entangle-item-date {
+    font-size: small;
+    opacity: 0.8;
+}
+
+.grp-entangle-item-head-image {
+    flex-shrink: 0;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -35px;
+}
+
+.grp-entangle-item-head-image--image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grp-entangle-item-head-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.grp-entangle-item-body-stars svg {
+    height: 20px;
+    width: 20px;
+}
+
+.grp-entangle-body {
+    padding: 0 4rem;
+}
+
+.grp-entangle-item-body-review {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.grp-entangle-item-head-group-left {
+    flex-direction: row !important;
+    justify-content: flex-start !important;
+    padding-top: 10px;
+    align-items: center
+}
+
+.grp-entangle-item-head-group-left {
+    text-align: left;
+    gap: 10px;
+}
+
+.grp-entangle-item-head-group-left .grp-entangle-item-head-image {
+    margin-top: 0;
+    height: 40px;
+    width: 40px;
+}
+
+.grp-entangle-item-head-group-left .grp-entangle-item-head-name-group {
+    margin-top: 0px;
+}
+
+.grp-entangle-item-head-group-left .grp-entangle-item-body-stars {
+    width: 100%;
+}
+
+.grp-entangle-item-body .grp-entangle-item-body-review {
+    text-align: left;
+}
+
+.grp-entangle-badge-logo>svg {
+    width: 100%;
+    height: 100%;
+}
+
+/* For Badge review Heading */
+.grp-entangle-review-header {
+    /* margin: 20px; */
+    margin-right: -8px;
+    /* height: 100px; */
+    /* box-shadow: 0px 0px 1px 0px #222222; */
+}
+
+.grp-entangle-hello {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+
+.grp-entangle-review-header-info {
+    margin: auto 15px;
+    line-height: 1;
+}
+
+.grp-entangle-review-stars {
+    display: flex;
+    align-items: center;
+    /* color:black; */
+    gap: 10px;
+}
+
+/* For Badge Heading*/
+.grp-entangle-head-badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grp-entangle-badge-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.grp-entangle-badge-stars {
+    font-size: x-large;
+}
+
+.grp-entangle-rating-container {
+    flex-shrink: 0;
+    color: white;
+    max-width: 400px;
+    /* padding: 15px 20px; */
+    border-radius: 10px;
+}
+
+.grp-entangle-rating-container-floating {
+    flex-shrink: 0;
+    color: white;
+    width: 100%;
+    /* padding: 15px 20px; */
+    border-radius: 10px;
+}
+
+
+.grp-entangle-clear-button {
+    background: none;
+    border: none;
+    font-size: 12px;
+    color: red;
+    cursor: pointer;
+    height: 18px;
+    padding: 0;
+    margin-left: 5px;
+}
+
+.grp-entangle-swipper-badge-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.grp-entangle-item-head-logo-wrapper {
+    margin-left: auto;
+    align-self: flex-start;
+}
+
+.grp-entangle-layout-body-wrapper {
+    /* padding: 20px; */
+}
+
+
+.grp-entangle-list-item {
+    margin-bottom: 25px;
+}
+
+.swiper-button-disabled {
+    display: none;
+}
+
+.grp-entangle-preview-bottom {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.grp-entangle-setup-select>div {
+    display: flex;
+    align-items: center;
+}
+
+.grp-entangle-border-bottom {
+    border-bottom: 1.5px solid #d3d3d3e8;
+}
+
+.grp-entangle-setup-settings {
+    background-color: white;
+    margin-top: 30px;
+}
+
+.grp-entangle-setup-settings-wrapper {
+    margin: 10px;
+}
+
+
+/*----Scrollbar------*/
+
+#grp-entangle-connect-google-preview {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.grp-entangle-swiper-main.grp-entangle-view {
+    padding-top: 70px;
+}
+
+
+.grp-entangle-scrollbar::-webkit-scrollbar {
+    width: 0.1em;
+}
+
+.grp-entangle-scrollbar::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.grp-entangle-scrollbar::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+}
+
+
+/*----Drawer Layout------*/
+.grp-entangle-floating-badge-wrapper {
+    display: flex;
+}
+
+.grp-entangle-floating-badge {
+    /* padding: 0 10px; */
+    cursor: pointer;
+    border-radius: 10px;
+    /* width: 100%; */
+}
+
+.grp-entanglelayout-floating-options {
+    margin: 0 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.grp-entangle-badge-button {
+    padding: 4px 8px;
+    background-color: #4285F4;
+    color: white;
+    display: inline-block;
+    margin-top: 5px;
+    border-radius: 3px;
+    font-size: small;
+    text-align: center;
+    font-weight: bold;
+}
+
+.grp-entangle-review-write {
+    display: flex;
+    justify-content: space-between;
+}
+
+.grp-entangle-write-div {
+    display: flex;
+    justify-content: end;
+    /* margin-top: -58px; */
+}
+
+.grp-entangle-write {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 41px;
+    margin-bottom: 10px;
+
+}
+
+a.grp-entangle-all-review {
+    display: flex;
+    align-items: center;
+
+    color: #222;
+}
+
+.grp-entangle-badge-static {
+    width: 100%;
+}
+
+.grp-entangle-list-badge {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.grp-entangle-width-scroll {
+    max-height: 420px;
+    overflow-y: auto;
+}
+
+.grp-entangle-width-scroll::-webkit-scrollbar {
+    width: 5px;
+}
+
+
+.grp-entangle-width-scroll::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.grp-entangle-width-scroll::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+.grp-entangle-width-scroll::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.scroll-trigger.animate--slide-in {
+    opacity: 100%;
+}
+
+.animate--slide-in {
+    animation: none;
+}
+
+
+.grp-entangle-swiper-button-next[role="button"] {
+    padding: 1px;
+    border: 0px;
+    background-color: transparent;
+}
+
+.grp-entangle-swiper-button-prev[role="button"] {
+    padding: 1px;
+    border: 0px;
+    background-color: transparent;
+}
+
+.grp-entangle-swiper-button-next[role="button"]:hover {
+    background-color: transparent;
+}
+
+.grp-entangle-swiper-button-prev[role="button"]:hover {
+    background-color: transparent;
+}
+
+@media screen and (max-width: 375px) {
+    .grp-entangle-swiper-main .swiper-pagination {
+        margin-left: 20px;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .grp-entangle-output-text-group {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .grp-entangle-media-infomation {
+        padding-bottom: 0px;
+        height: 100px;
+    }
+
+    .grp-entangle-write-div {
+        margin-top: 0px !important;
+    }
+
+    .grp-entangle-list-badge {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .grp-entangle-adjust-setting {
+        flex-direction: column-reverse;
+        height: fit-content;
+    }
+
+    .grp-entangle-setting-side {
+        height: fit-content;
+    }
+
+    .grp-entangle-review-side {
+        height: 500px;
+    }
+
+    #grp-entangle-carousel-container {
+        width: 100%;
+    }
+
+    .grp-entangle-swipper-badge-wrapper {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .grp-entangle-rating-container {
+        width: 100%;
+    }
+
+    .grp-entangle-layout-body-wrapper {
+        padding: 0px;
+    }
+
+    .grp-entangle-swiper-wrap {
+        padding: 0 25px;
+    }
+
+    .grp-entanglelayout-body {
+        margin: 0 auto;
+    }
+
+    .grp-entangle-setup-select>div {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .grp-entangle-flex {
+        flex-wrap: wrap;
+    }
+
+    .grp-entangle-input-box {
+        width: 100%;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .grp-entangle-tab-content {
+        padding: 20px;
+    }
+
+    .grp-entangle-preference-container {
+        flex-direction: column;
+    }
+}
+
+/* For Grid Layout
+ */
+
+.grp-entangle-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+.grp-entangle-google-logo-small {
+    height: 25px;
+    width: 25px;
+}
+
+.grp-entangle-badge-flex {
+    display: flex;
+    gap: 17px;
+    align-items: center;
+}
+
+.grp-entangle-badge-vertical {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+    gap: 5px;
+}
+
+.grp-entangle-gap-sm {
+    gap: 0px;
+    line-height: 1.2;
+}
+
+.grp-entangle-gap-md {
+    align-items: center;
+}
+
+.grp-entangle-heading--small {
+    /* font-size: 1.5rem; */
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.grp-entangle-slide-twocol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grp-entangle-badge-fixed {
+    position: fixed;
+    bottom: 20px;
+    left: 10px;
+    z-index: 100;
+    display: inline-flex;
+}
+
+.grp-entangle-badge-thumbnail {
+    height: 60px;
+    width: 65px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.grp-entangle-badge-thumbnail img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.grp-entangle-rating {
+    /* display: flex; */
+}

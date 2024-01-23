@@ -1,17 +1,23 @@
 import React, { useState } from 'react'
 import SkeletonPageLayout from './SkeletonPageLayout'
-import MainLayout from './MainLayout'
+import SocialAppsContainer from '../containers/SocialAppsContainer'
+import { Button, Page } from '@shopify/polaris'
+import ReviewContainer from '../containers/ReviewContainer'
 
 const HomeLayout = () => {
-    const [skeletonPageLoad,setSkeletonPageLoad] = useState(false)
+  const modalButton = <Button>Social Apps</Button>
   return (
     <>
-    {
-        skeletonPageLoad?
-            <SkeletonPageLayout></SkeletonPageLayout>
-        :
-            <MainLayout></MainLayout>
-    }
+        <Page
+            title='All Reviews App'
+            fullWidth
+            primaryAction = {modalButton}
+        >
+          <SocialAppsContainer></SocialAppsContainer>
+
+          <ReviewContainer></ReviewContainer>
+
+        </Page>
     </>
   )
 }

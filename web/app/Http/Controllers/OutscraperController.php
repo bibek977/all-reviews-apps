@@ -25,6 +25,7 @@ use App\Outscraper\OutscraperClient;
 
 
 $OUTSCRAPER_KEY = env('OUTSCRAPER_KEY');
+// $OUTSCRAPER_KEY = "OGFlZjNlY2UwNDc3NDgyMTk1YTJjYjgwNGUxNTJlMjB8NjU0YzczMmQwMg";
 
 
 
@@ -36,6 +37,8 @@ class OutscraperController extends Controller
             'description'=>'required',
 
         ]);
+        $OUTSCRAPER_KEY = "OGFlZjNlY2UwNDc3NDgyMTk1YTJjYjgwNGUxNTJlMjB8NjU0YzczMmQwMg";
+
         $client = new OutscraperClient($OUTSCRAPER_KEY);
 
         $base_url = 'https://www.yelp.com/search?';
@@ -55,6 +58,8 @@ class OutscraperController extends Controller
     } 
 
     public function yelp_business(Request $request){
+        $OUTSCRAPER_KEY = "OGFlZjNlY2UwNDc3NDgyMTk1YTJjYjgwNGUxNTJlMjB8NjU0YzczMmQwMg";
+
 
         $client = new OutscraperClient($OUTSCRAPER_KEY);
 
@@ -141,6 +146,8 @@ class OutscraperController extends Controller
     }
 
     public function amazon_reviews(Request $request) {
+        $OUTSCRAPER_KEY = "OGFlZjNlY2UwNDc3NDgyMTk1YTJjYjgwNGUxNTJlMjB8NjU0YzczMmQwMg";
+
         $client = new OutscraperClient($OUTSCRAPER_KEY);
         
         $request->validate([
@@ -210,6 +217,8 @@ class OutscraperController extends Controller
     }
 
     public function youtube_search(Request $request) {
+        $OUTSCRAPER_KEY = "OGFlZjNlY2UwNDc3NDgyMTk1YTJjYjgwNGUxNTJlMjB8NjU0YzczMmQwMg";
+
         $client = new OutscraperClient($OUTSCRAPER_KEY);
         
         $request->validate([
@@ -246,6 +255,8 @@ class OutscraperController extends Controller
     }
 
     public function youtube_reviews(Request $request) {
+        $OUTSCRAPER_KEY = "OGFlZjNlY2UwNDc3NDgyMTk1YTJjYjgwNGUxNTJlMjB8NjU0YzczMmQwMg";
+
         $client = new OutscraperClient($OUTSCRAPER_KEY);
         
         $request->validate([
@@ -263,6 +274,8 @@ class OutscraperController extends Controller
 
     }
     public function facebook_pages(Request $request) {
+        $OUTSCRAPER_KEY = "OGFlZjNlY2UwNDc3NDgyMTk1YTJjYjgwNGUxNTJlMjB8NjU0YzczMmQwMg";
+        
         $client = new OutscraperClient($OUTSCRAPER_KEY);
         
         $request->validate([
@@ -282,6 +295,8 @@ class OutscraperController extends Controller
 
     }
     public function facebook_reviews(Request $request) {
+        $OUTSCRAPER_KEY = "OGFlZjNlY2UwNDc3NDgyMTk1YTJjYjgwNGUxNTJlMjB8NjU0YzczMmQwMg";
+
         $client = new OutscraperClient($OUTSCRAPER_KEY);
         
         $request->validate([
@@ -351,6 +366,8 @@ class OutscraperController extends Controller
 
     }
     public function trip_advisor(Request $request) {
+        $OUTSCRAPER_KEY = "OGFlZjNlY2UwNDc3NDgyMTk1YTJjYjgwNGUxNTJlMjB8NjU0YzczMmQwMg";
+
         $client = new OutscraperClient($OUTSCRAPER_KEY);
         
         $request->validate([
@@ -391,6 +408,8 @@ class OutscraperController extends Controller
     }
 
     public function google_map(Request $request) {
+        $OUTSCRAPER_KEY = "OGFlZjNlY2UwNDc3NDgyMTk1YTJjYjgwNGUxNTJlMjB8NjU0YzczMmQwMg";
+
         $client = new OutscraperClient($OUTSCRAPER_KEY);
         
         $request->validate([
@@ -412,6 +431,8 @@ class OutscraperController extends Controller
 
 
     public function google_map_reviews(Request $request) {
+        $OUTSCRAPER_KEY = "OGFlZjNlY2UwNDc3NDgyMTk1YTJjYjgwNGUxNTJlMjB8NjU0YzczMmQwMg";
+
         $client = new OutscraperClient($OUTSCRAPER_KEY);
         
         $request->validate([

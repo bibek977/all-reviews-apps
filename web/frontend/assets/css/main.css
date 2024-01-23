@@ -1,0 +1,2014 @@
+/* :root {
+    --swiper_dot_color_page: #4285F4;
+} */
+
+/* Swiper  */
+.swiper_wrap {
+    padding: 0px 30px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.swiper-wrapper {
+    padding-bottom: 20px;
+}
+
+.swiper-pagination-bullet {
+    background-color: var(--swiper_dot_color_page) !important;
+}
+
+.swiper-button-next {
+    margin-top: 0px;
+    position: absolute;
+    top: 45%;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    transform: translateY(-50%);
+}
+
+.swiper-button-prev {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 45px;
+    height: 45px;
+    transform: translateY(-50%);
+    margin-top: 0px;
+}
+
+.grp-entangle-swiper-main .swiper-pagination {
+    bottom: 0 !important;
+}
+
+.grp-entangle-swiper-main .swiper-button-prev:after,
+.grp-entangle-swiper-main .swiper-button-next:after {
+    font-size: 20px !important;
+    position: absolute;
+    top: 20px;
+    left: 13px;
+    opacity: 100%;
+}
+
+:hover.grp-entangle-swiper-main.swiper-button-prev:after,
+:hover.grp-entangle-swiper-main.swiper-button-next:after {
+    opacity: 100%;
+}
+
+.grp-entangle-swiper-main .swiper-button-prev,
+.grp-entangle-swiper-main .swiper-button-next {
+    height: 34px;
+    width: 34px;
+}
+
+.grp-swiper-button {
+    border-radius: 27px;
+    padding: 26px;
+}
+
+.grp-entangle-swiper-main .grp-swiper-button-n::after {
+    left: 23px;
+    top: 30%;
+}
+
+.grp-entangle-swiper-main .grp-swiper-button-p::after {
+    left: 20px;
+    top: 30%;
+}
+
+.swiper-button-prev.grp-salue.grp-swiper-button.grp-swiper-button-p.grp-badge-review-prev {
+
+    left: 38%;
+}
+
+.swiper-button-next.grp-swiper.grp-swiper-button.grp-swiper-button-n.grp-badge-review-next {
+    right: 38%;
+}
+
+/* Swiper  End*/
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;grp-main-tabs-card
+} */
+.grp-entangle-main-page .Polaris-LegacyCard .Polaris-Box {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    /* z-index: 100; */
+}
+
+/* .Polaris-Tabs__Panel .Polaris-Box {
+    position: relative ;
+    z-index: 110 ;
+     border-radius: 0 0 8px 8px ;
+}
+.grp-entangle-main-page .Polaris-Box .Polaris-Box {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 100;
+    border-radius: 8px 8px 0 0;
+} */
+
+
+
+.grp-entangle-main-page a {
+    text-decoration: none;
+}
+
+.grp-entangle-tab-content {
+    padding: 40px;
+}
+
+#grp-entangle-rating-star {
+    display: flex;
+}
+
+.grp-entangle-flex {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 15px; */
+    /* padding: 15px; */
+    align-items: start;
+    justify-content: space-between;
+    /* box-shadow: 0px 0px 0px 2px rgba(31, 33, 36, 10%); */
+    border-radius: 5px;
+    /* margin-bottom: 20px; */
+}
+
+.grp-entangle-flex-dis {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 0px 2px rgba(31, 33, 36, 10%);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.grp-entangle-info-icon {
+    height: 23px;
+    width: 50px;
+}
+
+.grp-entangle-search-icon {
+    height: 20px;
+    width: 40px;
+}
+
+.Polaris-Tabs__TabContainer+.Polaris-Tabs__TabContainer {
+    /* background-image: url(../media/ChevronRight.svg); */
+    background-repeat: no-repeat;
+    background-size: 23px 23px;
+    background-origin: padding-box;
+    background-position: left;
+}
+
+.Polaris-Badge {
+    border-radius: 5px !important;
+}
+
+.grp-entangle-badge {
+    display: flex;
+    justify-content: center;
+}
+
+.grp-entangle-badge-2 {
+    display: flex;
+    padding: 20px;
+    /* background: aliceblue; */
+    border-radius: 4px;
+    margin: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.grp-badge-list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+
+.grp-entangle-badge-content {
+    padding-left: 10px;
+}
+
+#grp-entangle-connect-google-heading {
+    font-size: 20px;
+}
+
+.css-1wuilmg-MuiAutocomplete-root {
+    width: 100% !important;
+}
+
+button.Polaris-Button.Polaris-Button--outline {
+    width: 100px;
+    box-shadow: 0px 4px 0px rgba(0, 122, 92, 1) !important;
+    padding: 10px !important;
+    border: 2px solid rgba(0, 122, 92, 1) !important;
+    border-radius: 14px !important;
+}
+
+.Polaris-MediaCard__MediaContainer {
+    /* padding: 15px; */
+}
+
+.grp-entangle-layout-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+    padding: 5px 0;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.grp-entangle-swiper-main.grp-entangle-layout-body-wrapper {
+    padding: 20px;
+}
+
+.grp-mediacard .Polaris-LegacyCard .Polaris-MediaCard--portrait .Polaris-MediaCard__InfoContainer .Polaris-LegacyCard__Section {
+    height: 100%;
+    min-height: 190px;
+
+
+    position: relative;
+}
+
+
+.grp-mediacard .Polaris-LegacyStack p .grp-entangle-sub-infomation .grp-media-address {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.grp-mediacard .Polaris-LegacyStack p .grp-entangle-sub-infomation .grp-entangle-star-main {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.Polaris-MediaCard__Heading {
+    margin-right: 0px !important;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* .grp-mediacard .Polaris-LegacyStack .Polaris-MediaCard__ActionContainer {
+    align-items: end;
+    position: absolute;
+} */
+
+/* .Polaris-LegacyStack
+.Polaris-LegacyStack__Item */
+
+
+label.Polaris-Choice {
+    padding: 10px;
+}
+
+p#grp-entangle-connect-google-layout {
+    font-size: 18px;
+    padding: 10px;
+}
+
+h4#grp-entangle-connect-google-layout {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.grp-entangle-layout-body {
+    padding: 0px 0px 30px;
+    margin: 0px 20px;
+}
+
+.grp-entangle-layout-type {
+    padding-top: 20px;
+}
+
+#grp-entangle-layout-settings-content-1 .Polaris-LegacyCard__Section,
+#grp-entangle-select-layout-content-1 .Polaris-LegacyCard__Section {
+    background: #d3d3d333;
+    padding: 0;
+    border-radius: 0;
+}
+
+#grp-entangle-insert-code-content-1 .Polaris-LegacyCard__Section,
+#grp-entangle-google-content-1 .Polaris-LegacyCard__Section {
+    /* background: #d3d3d333; */
+    border-radius: 0;
+}
+
+
+
+.grp-entangle-select-layout-1 .Polaris-LegacyCard {
+    border-radius: 0;
+
+}
+
+.grp-entangle-select-layout-1 .Polaris-LegacyCard+.Polaris-LegacyCard {
+    margin-top: 0;
+}
+
+.gr-istallation-main {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.grp-entangle-video-link {
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+.grp-entangle-video-link iframe {
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+#grp-entnagle-main-input {
+    width: 100%;
+    padding: 0px 15px 0 0;
+    border: none;
+    /* border-radius: 16px; */
+}
+
+.grp-entnagle-google-place-id {
+    font-size: 12px;
+}
+
+.grp-entangle-div-input {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+#grp-tour-react {
+
+    position: fixed;
+    right: 160px;
+    top: 23px;
+}
+
+img.grp-tour-react {
+    height: 20px;
+
+}
+
+
+input#grp-entnagle-main-input:focus {
+    outline: none;
+}
+
+input#grp-entnagle-main-input::-webkit-outer-spin-button,
+input#grp-entnagle-main-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.grp-entangle-input-box {
+    display: flex;
+    width: 100%;
+    box-shadow: 0px 0px 0px 1.4px #9d9d9d8c;
+    border-radius: 3px;
+    align-items: center;
+    height: 36px;
+}
+
+.grp-entangle-input-indiv {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+}
+
+.grp-entangle-input-notes {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* border-left: 1px solid #e1e3e6; */
+    cursor: pointer;
+}
+
+.grp-entangle-label .Polaris-Text--root.Polaris-Text--bold {
+    margin: 16px 0px;
+}
+
+.grp-entangle-search-hover-main-info {
+    position: relative;
+    display: inline-block;
+}
+
+.grp-entangle-search-hover-main-info .grp-entangle-search-hover-info {
+    visibility: hidden;
+    width: 530px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    margin-top: 10px;
+    padding: 5px 0;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    right: 0;
+}
+
+.grp-entangle-search-hover-main-info:hover .grp-entangle-search-hover-info {
+    visibility: visible;
+}
+
+.grp-entangle-search-output {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.grp-entangle-output-text-group {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding-right: 0px;
+}
+
+.grp-entangle-output-text-group .Polaris-Button {
+    flex-shrink: 0;
+}
+
+.grp-entangle-media-infomation {
+    padding: 20px 0px;
+    height: 125px;
+    width: 100px;
+}
+
+.grp-entangle-media-infomation img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Polaris-Page .grp-entangle-main-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/*  star rating */
+.grp-entangle-stars-outer {
+    display: inline-block;
+    position: relative;
+    font-size: 17px;
+    font-family: FontAwesome;
+}
+
+.grp-entangle-stars-outer::before {
+    content: "\2606 \2606 \2606 \2606 \2606";
+    color: #F7BB04;
+    letter-spacing: 2px;
+
+}
+
+.grp-entangle-stars-inner.grp-outer::before {
+    color: rgb(254, 132, 3);
+}
+
+.grp-entangle-stars-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 17px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    font-family: FontAwesome;
+}
+
+.grp-entangle-star-main {
+    font-size: 15px;
+    display: flex;
+    gap: 3px;
+    flex-wrap: wrap;
+}
+
+.grp-entangle-sub-infomation {
+    color: rgba(97, 106, 117, 1);
+    margin-top: 3px;
+    height: 60px;
+}
+
+.grp-entangle-stars-inner::before {
+    content: "\2605 \2605 \2605 \2605 \2605";
+    color: #F7BB04;
+    letter-spacing: 2px;
+}
+
+.grp-entangle-stars-inner.grp-inner::before {
+    color: rgb(254, 132, 3);
+}
+
+#grp-entangle-google-main-review *:focus-visible {
+    outline: none;
+    outline-offset: no;
+    box-shadow: none;
+}
+
+.grp-entangle-spinner {
+    /* position: fixed;
+    top: 50%;
+    right: 50%;
+    z-index: 9999; */
+    text-align: center;
+    margin: 80px 0px;
+}
+
+
+.loader {
+    position: initial;
+}
+
+.outer,
+.middle,
+.inner {
+    border: 3px solid transparent;
+    border-top-color: #0a58ca;
+    border-right-color: #0a58ca;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.outer {
+    width: 3.5em;
+    height: 3.5em;
+    margin-left: -1.75em;
+    margin-top: -1.75em;
+    animation: spin 2s linear infinite;
+}
+
+.middle {
+    width: 2.1em;
+    height: 2.1em;
+    margin-left: -1.05em;
+    margin-top: -1.05em;
+    animation: spin 1.75s linear reverse infinite;
+}
+
+.inner {
+    width: 0.8em;
+    height: 0.8em;
+    margin-left: -0.4em;
+    margin-top: -0.4em;
+    animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.grp-modal-backdrop {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000
+}
+
+.grp-modal-backdrop.show {
+    opacity: 0.3;
+}
+
+
+
+.Polaris-Label__Text {
+    font-weight: 600;
+    padding: 12px 2px;
+}
+
+.nerd--absolute {
+    position: absolute;
+}
+
+.nerd--google-review {
+    line-height: 1.6;
+}
+
+#nerd--review-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nerd--write-review {
+    padding: 4px 10px;
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+.nerd--write-review a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.nerd--google-review-padding {
+    padding: 10px;
+    padding-bottom: 35px;
+}
+
+.nerd--fixed-bottom-left {
+    left: 10px;
+    bottom: 10px;
+}
+
+.nerd--fixed-bottom-right {
+    right: 10px;
+    bottom: 10px;
+}
+
+.grp-entangle-item-body-stars {
+    justify-content: center;
+    display: flex;
+}
+
+/*-------Floating and Static------*/
+.grp-entangle-layout-floating {
+    position: relative;
+}
+
+.grp-entangle-layout-floating .grp-entangle-static-badge {
+    display: flex;
+}
+
+.grp-entangle-layout-floating .grp-entangele-floating-static-data {
+    padding: 10px;
+    position: fixed;
+    max-height: 100vh;
+    max-width: 400px;
+    top: 0;
+    right: 0;
+    right: -500px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    transition: all 200ms ease;
+    z-index: 100;
+}
+
+.grp-entangle-floating-close {
+    display: none;
+    position: fixed;
+    top: 0px;
+    right: 5px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.7;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.grp-entangle-infomation {
+    gap: 6px;
+    display: flex;
+    flex-direction: column;
+}
+
+.grp-entangle-grid-main {
+    padding: 0px 25px 0px 25px;
+}
+
+.grp-entangle-main-sub {
+    box-shadow: 0px 1px 0px #a9a9a987;
+    min-height: 150px;
+}
+
+.grp-entangle-item,
+.grp-entangle-item-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.grp-entangle-item {
+    gap: 15px;
+    border-radius: 3px;
+    padding: 20px 15px;
+    margin: 10px;
+    margin-top: 50px;
+    padding-top: 0;
+    height: 180px;
+}
+
+.grp-entangle-item-head {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grp-entangle-item-head-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.grp-entangle-item-head-name-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    align-items: start;
+}
+
+.grp-entangle-item-head-name {
+    font-weight: 600;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.grp-entangle-item-date {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.grp-entangle-item-head-image {
+    flex-shrink: 0;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -35px;
+}
+
+.grp-entangle-item-head-image--image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grp-entangle-item-head-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.grp-entangle-item-body-stars svg {
+    height: 20px;
+    width: 20px;
+}
+
+.grp-entangle-body {
+    padding: 0 4rem;
+}
+
+.grp-entangle-item-body-review {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.grp-entangle-item-head-group-left {
+    flex-direction: row !important;
+    justify-content: flex-start !important;
+    padding-top: 10px;
+    align-items: center
+}
+
+.grp-entangle-item-head-group-left {
+    text-align: left;
+    gap: 10px;
+}
+
+.grp-entangle-item-head-group-left .grp-entangle-item-head-image {
+    margin-top: 0;
+    height: 40px;
+    width: 40px;
+}
+
+.grp-entangle-item-head-group-left .grp-entangle-item-head-name-group {
+    margin-top: 0px;
+}
+
+.grp-entangle-item-head-group-left .grp-entangle-item-body-stars {
+    width: 100%;
+}
+
+.grp-entangle-item-body .grp-entangle-item-body-review {
+    text-align: left;
+}
+
+/* For Badge Heading*/
+.grp-entangle-head-badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grp-entangle-badge-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.grp-entangle-badge-stars {
+    font-size: 20px;
+    display: flex;
+    gap: 2px;
+    flex-direction: row;
+    height: 30px;
+    /* justify-content: center; */
+}
+
+.rating--container {
+    flex-shrink: 0;
+    color: #ffffff;
+    /* width: 23%; */
+    padding: 0;
+}
+
+.grp-badge-slider {
+    padding: 20px;
+    position: relative;
+    min-height: 260px;
+
+}
+
+.grp-entangle-badge-review {
+    margin: 30%;
+
+}
+
+.grp-badge-review-star {
+    /* border: 1px solid; */
+    width: 58px;
+    padding: 6px;
+    height: 60px;
+    border-radius: 55%;
+    position: relative;
+    margin: auto;
+    margin-top: -46px;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.Polaris-Grid-Cell .grp-entangle-empty-or-not-found {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    font-size: 20px;
+    /* max-width: 570px; */
+    text-align: center
+}
+
+.grp-entangle-clear-button {
+    background: none;
+    border: none;
+    font-size: 12px;
+    color: red;
+    cursor: pointer;
+    height: 18px;
+    padding: 0;
+    margin-left: 5px;
+}
+
+.grp-entangle-connect-main .Polaris-Card {
+    box-shadow: 0px 0px 0px 0px rgba(31, 33, 36, 0.05);
+}
+
+.grp-entangle-swipper-badge-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.grp-entangle-item-head-logo-wrapper {
+    margin-left: auto;
+    align-self: flex-start;
+}
+.grp-stars svg#Layer_1 {
+    height: 32px;
+    width: 26px;
+}
+/* .grp-entangle-layout-body-wrapper {
+    padding: 20px;
+} */
+
+/* .grp-entangle-layout-body-wrapper-main {
+    background-image: url(/assets/media/transparent_image.png);
+    background-size: 100%;
+} */
+
+.grp-entangle-layout-body .Polaris-LegacyCard {
+    box-shadow: none;
+}
+
+.grp-entangle-list-item {
+    margin-bottom: 25px;
+}
+
+.swiper-button-disabled {
+    display: none;
+}
+
+.grp-entangle-preview-bottom {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.grp-entangle-setup-select>div {
+    display: flex;
+    align-items: center;
+}
+
+.grp-entangle-setup-select .Polaris-Select {
+    width: 70%;
+    margin-left: auto;
+}
+
+.grp-entangle-setup-select .Polaris-RangeSlider-SingleThumb {
+    width: 100%;
+}
+
+.grp-entangle-border-bottom {
+    border-bottom: 1.5px solid #d3d3d3e8;
+}
+
+.grp-entangle-setup-settings {
+    background-color: #ffffff;
+    margin-top: 30px;
+}
+
+.grp-entangle-setup-settings-wrapper {
+    margin: 10px;
+}
+
+
+/*----Scrollbar------*/
+
+#grp-entangle-connect-google-preview {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.grp-entangle-swiper-main.grp-entangle-view {
+    padding: 20px
+}
+
+.grp-entangle-view .Polaris-LegacyCard {
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+.grp-entangle-scrollbar::-webkit-scrollbar {
+    width: 0.1em;
+}
+
+.grp-entangle-scrollbar::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.grp-entangle-scrollbar::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+}
+
+
+/*----Drawer Layout------*/
+.grp-entangle-floating-badge-wrapper {
+    display: flex;
+}
+
+.grp-entangle-floating-badge {
+    padding: 0 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.grp-entanglelayout-floating-options {
+    margin: 0 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.grp-entangle-badge-button {
+    padding: 6px 8px;
+    background-color: #4285F4;
+    color: #ffffff;
+    display: inline-block;
+    margin-top: 5px;
+    border-radius: 3px;
+    font-size: small;
+    font-weight: bold;
+}
+
+/* Instruction */
+
+.grp-entangle-instruction-main {
+    margin-top: 20px;
+}
+
+.grp-entangle-instructions {
+    padding: 10px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #444;
+}
+
+.grp-entangle-spinner-lazy-connect {
+    position: fixed;
+    top: 50%;
+    right: 50%;
+    z-index: 9999;
+    /* text-align: center;
+    padding: 20px; */
+}
+
+.grp-entangle-spinner-lazy {
+    position: fixed;
+    top: 50%;
+    right: 50%;
+    z-index: 9999;
+    /* text-align: center;
+    padding: 120px; */
+}
+
+.grp-entangle-instruction-main .Polaris-Text--root {
+    /* text-decoration: underline; */
+}
+
+.grp-entangle-reactour {
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.grp-entangle_readmore {
+    display: flex;
+    justify-content: end;
+    margin-right: 41px;
+    margin-top: 20px;
+}
+
+.grp-entangle_readmore .Polaris-Link--removeUnderline:hover {
+    text-decoration: none;
+}
+
+.grp-entangle_readmore .Polaris-Link--removeUnderline {
+    text-decoration: none;
+    display: flex;
+}
+
+.grp-entangle-instruction-main .Polaris-LegacyCard {
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+
+/* infomationgrp-entangle */
+
+.grp-entangle-help {
+    display: flex;
+    margin-bottom: 5px;
+    justify-content: space-between;
+}
+
+#grp-entangle-help-link {
+    display: flex;
+}
+
+/* PopUp   */
+
+
+.grp-entangle-popup-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1000;
+}
+
+.grp-entangle-popup-container.visible {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grp-entangle-popup-content {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+
+}
+
+.grp_image_and_title {
+    background-image: url(../media/google_review.webp);
+    background-repeat: no-repeat;
+    background-size: 77px;
+    background-position: 19px 0px;
+}
+
+h4.grp-title-dislike {
+    margin-top: 25px;
+
+}
+
+.grp-title-like {
+    margin-top: 25px;
+    text-align: left;
+    line-height: 1.45;
+    font-size: 18px;
+
+}
+
+
+button#grp-like-close {
+    border-radius: 50px;
+    width: 100px;
+    background-color: black;
+    color: #ffffff;
+    /* font-size: 16px; */
+    /* font-weight: 600; */
+}
+
+.grp-entangle-likes {
+    display: flex;
+    justify-content: end;
+    height: 50px;
+    margin: 20px;
+    margin-top: 0px;
+}
+
+#grp-like-close>.Polaris-Button__Content {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.grp-entangle-popup-logo {
+    width: 180px;
+    /* margin-bottom: 20px;
+    margin-top: 20px; */
+}
+
+.grp-entangle-popup-heading {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.grp-entangle-popup-text {
+    /* margin-bottom: 20px; */
+}
+
+.grp-entangle-popup-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    height: 50px;
+}
+
+.grp-entangle-popup-buttons-send {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+.grp-entangle-popup-button {
+    background: none;
+    border: none;
+    padding: 8px 16px;
+    margin: 0;
+    cursor: pointer;
+    text-align: center;
+    flex: 1;
+    /* Distribute buttons evenly in a single line */
+}
+
+
+.grp-entangle-popup-like {
+    background-color: #ebf7ff;
+    /* Change the background color */
+    color: #222;
+    border-radius: 0px 0px 8px 0px;
+}
+
+.grp-entangle-popup-dislike {
+    background-color: #ebf7ff;
+    /* Change the background color */
+    color: #222;
+    border-radius: 0px 0px 0px 8px;
+}
+
+.grp-entangle-popup-remind {
+    background-color: #0d6efd;
+    color: #ffffff;
+    flex: none;
+    width: 200px;
+
+}
+
+.grp-entangle-popup-button:hover {
+    /* background-color: #f5f5f5; */
+    opacity: 0.8;
+}
+
+#grp_close_me {
+    border: none;
+    height: 30px;
+    margin-top: -8px;
+}
+
+.grp_entangle_write_a_review {
+    display: flex;
+    justify-content: end;
+    margin-right: 45px;
+    margin-bottom: 20px;
+}
+
+select#grp_lang {
+    padding-left: 10px;
+}
+
+#grp_entangle_contact {
+    width: 60%;
+}
+
+#grp-entangle-color-picker {
+    justify-content: center;
+    padding-left: 26px;
+    padding-top: 20px;
+    flex-direction: row;
+}
+
+#grp-all-reviews {
+    gap: 3px;
+}
+
+.chrome-picker .flexbox-fix:nth-child(2) div:nth-child(2) {
+    display: none;
+}
+
+.grp-entangle-custom-bg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    margin: auto 0px 0px 140px;
+
+}
+
+.grp-entangle-slideII-SWR {
+    margin-right: 41px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-top: -38px;
+}
+
+.grp-entangle-custom {
+    text-align: center;
+    position: relative;
+    display: flex;
+    /* align-items: center; */
+    gap: 8px;
+}
+
+.grp-entangle-grid::-webkit-scrollbar {
+    width: 5px;
+}
+
+
+.grp-entangle-grid::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.grp-entangle-grid::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+.grp-entangle-grid::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.grp-entangle-stars-outer.grp-outer {
+    letter-spacing: 0px;
+}
+
+.grp-entangle-stars-outer.grp-inner {
+    letter-spacing: 0px;
+    /* pricing card */
+}
+
+.grp-plan-app-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 2rem;
+    gap: 20px;
+    overflow: auto;
+}
+
+.grp-plan-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 1px #ddd;
+    margin-bottom: 1rem;
+    max-width: 300px;
+    padding: 1rem 0;
+    position: relative;
+    width: 100%;
+    text-align: center;
+
+    .grp-plan-most-popular {
+        font-size: 15px;
+        font-weight: 700;
+        background-color: #9b59b6;
+        color: #fff;
+        padding: .25em 1rem;
+        border-radius: 15px;
+        text-transform: uppercase;
+    }
+
+    &.free {
+        border-top: 6px solid #1abc9c;
+    }
+
+    &.basic {
+        border-top: 6px solid #3498db;
+    }
+
+    &.medium {
+        border-top: 6px solid #9b59b6;
+    }
+
+    &.pro {
+        border-top: 6px solid #f1c40f;
+    }
+}
+
+.grp-plan-card {
+
+    .grp-plan-card-description,
+    .grp-plan-card-billing,
+    .grp-plan-card-features,
+    .grp-plan-card-action {
+        padding: 15px;
+    }
+
+    .grp-plan-card-description h2 {
+
+        font-size: 26px;
+        margin-bottom: .5rem;
+
+    }
+
+    .grp-plan-card-billing {
+        background-color: #ecf0f1;
+
+        p {
+            margin-bottom: .5rem;
+        }
+
+        .price {
+            font-size: 32px;
+            font-weight: 700;
+        }
+    }
+
+    .grp-plan-card-features {
+        min-height: 150px;
+
+
+    }
+
+    .grp-plan-card-features ul {
+        list-style: none;
+        padding: 0px;
+
+    }
+
+    .grp-plan-card-features ul li {
+
+        margin-bottom: 0.5rem;
+    }
+
+    .grp-plan-card-action {
+        >button {
+            border: 3px solid #3498db;
+            background-color: transparent;
+            color: #3498db;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            padding: .5rem 0;
+            width: 100%;
+            transition: .3s ease all;
+        }
+
+        >button.Polaris-Button--disabled {
+            border: 3px solid #8ea3b1;
+            color: #222;
+            background-color: #8ea3b1;
+        }
+
+        >button:hover {
+            transition: .3s ease all;
+            background-color: #3498db;
+            color: #fff;
+        }
+    }
+}
+
+.grp-plan-simple-header {
+    margin-top: 15px;
+}
+
+.grp-plan-app-wrapper .Polaris-Page.Polaris-Page--narrowWidth {
+    width: 100%;
+}
+
+
+div#grp_plan_card {
+    padding: 5px;
+}
+
+.grp-plan-simple {
+    height: auto;
+}
+
+.grp-plan-head {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+ul.grp-features li {
+    position: relative;
+    list-style-type: none;
+}
+
+ul.grp-features {
+    text-decoration: none;
+    padding-left: 0rem;
+}
+
+ul.grp-features li::before {
+    content: "";
+    background-image: url(../media/icons8-right.svg);
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
+    width: 1em;
+    height: 0.8em;
+    position: absolute;
+    left: 0;
+    top: 0.2em;
+}
+
+.grp-features-list {
+    padding-left: 2rem;
+    line-height: 1.75rem;
+    font-size: 1.25rem;
+}
+
+.grp-recommended {
+    padding: 10px;
+    background-color: rgb(228, 247, 255);
+    text-align: center;
+    font-size: 1.35rem;
+    color: #1972F5;
+    height: 41px;
+}
+
+#grp-link-basic {
+    padding: 0 5px 0 0;
+    text-decoration: underline;
+    color: #005bd3;
+    font-weight: 800;
+}
+
+#grp-disconnent-address {}
+
+a#grp-link-basic:hover {
+    color: #02367a;
+}
+
+.grp-entangle-paidUser {
+    color: #005bd3;
+    margin-left: -3px;
+}
+
+.grp-entangle-paidUser :hover {
+
+    /* text-decoration: underline; */
+}
+
+a.grp-hyper-link[disabled] {
+    pointer-events: none;
+    cursor: default;
+}
+
+.tab {
+    padding: 4px 8px;
+    cursor: pointer;
+    background-color: #E4E5E7;
+    color: #222;
+    z-index: 99;
+    border-radius: 4px;
+}
+
+.tab:hover {
+    background-color: #dbdada;
+    color: #222;
+}
+
+.tab.active {
+    background-color: #007F60;
+    border: 1px solid #fff;
+    /* border-bottom: 1px solid #f1f2f4; */
+    color: #fff;
+    z-index: 99;
+
+}
+
+.grp-display-template {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    font-size: 14px;
+    padding: 15px 0;
+    flex-wrap: wrap;
+    margin-bottom: -1px;
+    position: sticky;
+    top: 50px;
+    z-index: 99 !important;
+    background: #fff;
+}
+
+/* cardone  */
+span.grp-read-more {
+    border: 1px solid lightgray;
+    padding: 2px 5px;
+    background: lightblue;
+    opacity: .56;
+}
+
+span.grp-read-more:hover {
+
+    opacity: 1;
+}
+
+/*   */
+.grp-swiper-one-width {
+    width: 500px;
+}
+
+.grp-masonry {
+    columns: 20rem;
+    padding: 0 10px;
+}
+
+.grp-masonry-item+.grp-masonry-item {
+    margin-top: 1rem;
+}
+
+.grp-masonry-item {
+    break-inside: avoid;
+}
+
+.grp-z-index {
+    z-index: 9999999;
+}
+
+/*  subtab setting */
+.grp-sub-tabs {
+    width: 100%;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    overflow: hidden;
+    padding-top: 20px;
+
+}
+
+/* Style for the grp-sub-tabs header (horizontal layout) */
+.grp-sub-tabs-header {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+/* Style for each grp-sub-tab */
+.grp-sub-tab {
+    padding: 4px 8px;
+    cursor: pointer;
+    background-color: #E4E5E7;
+    color: #222;
+    z-index: 99;
+    border-radius: 5px;
+}
+
+.grp-sub-tab:hover {
+    background-color: #dbdada;
+    color: #222;
+}
+
+/* Style for the active grp-sub-tab */
+.grp-sub-tab.active {
+
+    background-color: #007F60;
+    border: 1px solid #fff;
+    /* border-bottom: 1px solid #f1f2f4; */
+    color: #fff;
+    z-index: 99;
+}
+
+/* Style for the grp-sub-tab content */
+.grp-sub-tab-content {
+    padding: 20px;
+}
+
+/* Example content styles for each tab */
+.grp-sub-tab-content div {}
+
+.grp-sub-tab-content div.active {
+    display: block;
+    /* Add your content styling here */
+}
+
+#grp-range {
+    width: 70%;
+}
+
+.offcanvas-body {
+    padding: 0rem 1rem !important;
+
+}
+
+.fade {
+    opacity: .3;
+}
+
+
+.modal-backdrop.fade {
+    opacity: 0;
+}
+
+.modal-backdrop.show {
+    opacity: 0.3;
+}
+
+.grp-slider-top {
+    max-width: 750px;
+}
+
+.grp-loading-main {
+    max-width: 1200px;
+    width: 98%;
+    /* overflow-y: hidden; */
+}
+
+
+/* @media (min-width: 30.625em) {
+
+    .Polaris-Page {
+        padding: 0 !important;
+    }
+
+
+    .Polaris-Page {
+        margin: 0 auto;
+        padding: 0;
+        max-width: 41.375rem;
+    }
+
+    .Polaris-Page--narrowWidth {
+        max-width: 41.375rem;
+    }
+} */
+
+@media screen and (max-width: 375px) {
+    .grp-entangle-swiper-main .swiper-pagination {
+        margin-left: 0px;
+    }
+
+    article.grp-entangle-review-article p {
+        margin-bottom: 0.4rem;
+    }
+
+    .grp-entangle-search-output {
+        flex-direction: column;
+    }
+
+    .grp-entangle-output-text-group {
+
+        padding: 20px 0;
+    }
+
+    .grp-entangle-swiper-main.grp-entangle-view {
+        padding: 0px;
+    }
+
+    .grp-entangle-layout-body-wrapper {
+        padding: 0px !important;
+    }
+
+    .grp-entangle-layout-body {
+
+        margin: 0px;
+    }
+
+    .swiper-button-prev.grp-salue.grp-swiper-button.grp-swiper-button-p.grp-badge-review-prev {
+
+        left: 25%;
+    }
+
+    .swiper-button-next.grp-swiper.grp-swiper-button.grp-swiper-button-n.grp-badge-review-next {
+        right: 25%;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .grp-entangle-info-icon {
+        height: 23px;
+        width: 32px;
+    }
+
+    .grp-entangle-search-icon {
+        height: 20px;
+        width: 35px;
+    }
+
+    .grp-entangle-paidUser {
+        font-size: .9rem;
+        line-height: 1rem;
+    }
+
+    .grp-slider-top {
+        max-width: 400px;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    .grp-entangle-output-text-group {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .grp-entangle-media-infomation {
+        padding-bottom: 0px;
+        height: 100px;
+    }
+
+    #grp_entangle_contact {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .grp-badge-list {
+        flex-wrap: wrap;
+
+    }
+
+    .grp-entangle-slideII-SWR {
+        margin-right: auto;
+        margin-top: 5px;
+    }
+
+    .grp-swiper-one-width {
+        width: 300px;
+    }
+
+
+    .grp-entangle-input-indiv {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .grp-slider-top {
+        max-width: 400px;
+    }
+
+    /* .grp_entangle_write_a_review.small {
+        right: 12px !important;
+        bottom: -60px !important;
+    } */
+
+}
+
+@media screen and (max-width: 750px) {
+    /* .grp_entangle_write_a_review.small {
+        right: 35px !important;
+        bottom: -60px !important;
+    } */
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .grp-entangle-adjust-setting {
+        flex-direction: column-reverse;
+        height: fit-content;
+    }
+
+    .grp-entangle-setting-side {
+        height: fit-content;
+    }
+
+    .grp-entangle-review-side {
+        height: 500px;
+    }
+
+    #grp-entangle-carousel-container {
+        width: 100%;
+    }
+
+    .grp-entangle-swipper-badge-wrapper {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .rating--container {
+        width: 100%;
+    }
+
+    .rating--container.grp-badge-slider {
+        width: 96%;
+        min-height: auto
+    }
+
+    .grp-stars svg#Layer_1 {
+        height: 30px;
+        width: 35px;
+    }
+
+    .grp-entangle-badge-review {
+        margin: 5%;
+
+    }
+
+    .grp-rating-container {
+        padding-top: 10px;
+    }
+
+    .grp-entangle-grid .Polaris-Grid {
+        gap: 0px;
+    }
+
+    .grp-entangle-layout-body-wrapper {
+        padding: 15px;
+    }
+
+    .swiper_wrap {
+        padding: 0 25px;
+    }
+
+    .grp-entanglelayout-body {
+        margin: 0 auto;
+    }
+
+    .grp-entangle-setup-select>div {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .grp-entangle-setup-select .Polaris-Select {
+        width: 100%;
+    }
+
+    .grp_entangle_write_a_review {
+        padding-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    /* .grp-entangle-head-badge {
+
+        padding-top: 20px;
+    } */
+
+    .grp-entangle-custom-bg {
+        margin: auto;
+        margin-top: 5px;
+
+    }
+
+
+    /* .grp_entangle_write_a_review.small {
+        position: absolute;
+        right: 35px;
+        bottom: 20px;
+    } */
+}
+
+@media screen and (max-width: 800px) {
+    .grp-entangle-flex {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .grp-entangle-div-input {
+        width: 100%;
+    }
+
+    .grp-entangle-input-box {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .grp-plan-head {
+        flex-direction: column;
+
+    }
+
+    .grp-features-list {
+        padding-left: 2rem;
+        line-height: 1.75rem;
+        font-size: 1rem;
+    }
+
+    .grp-slider-top {
+        max-width: 600px;
+    }
+    .swiper-button-prev.grp-salue.grp-swiper-button.grp-swiper-button-p.grp-badge-review-prev {
+
+        left: 35%;
+    }
+
+    .swiper-button-next.grp-swiper.grp-swiper-button.grp-swiper-button-n.grp-badge-review-next {
+        right: 35%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .grp-entangle-tab-content {
+        padding: 20px;
+    }
+
+    .grp-entangle-preference-container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .grp-slider-top {
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .grp-slider-top {
+        max-width: 300px;
+    }
+}
